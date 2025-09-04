@@ -32,11 +32,11 @@ repeat(2){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2C8DF599
+	/// @DnDHash : 36E4582B
 	/// @DnDParent : 7CD4FA82
 	/// @DnDArgument : "expr" "spr_minion"
-	/// @DnDArgument : "var" "sprite_index"
-	sprite_index = spr_minion;}
+	/// @DnDArgument : "var" "image_index"
+	image_index = spr_minion;}
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
