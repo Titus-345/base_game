@@ -28,15 +28,7 @@ repeat(2){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDArgument : "ypos" "tempEnemyY"
 	/// @DnDArgument : "objectid" "obj_enemy"
 	/// @DnDSaveInfo : "objectid" "obj_enemy"
-	instance_create_layer(tempEnemyX, tempEnemyY, "Instances", obj_enemy);
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 36E4582B
-	/// @DnDParent : 7CD4FA82
-	/// @DnDArgument : "expr" "spr_minion"
-	/// @DnDArgument : "var" "image_index"
-	image_index = spr_minion;}
+	instance_create_layer(tempEnemyX, tempEnemyY, "Instances", obj_enemy);}
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

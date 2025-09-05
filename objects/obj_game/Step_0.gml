@@ -2,8 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 35393465
 /// @DnDArgument : "var" "global.Dead"
-/// @DnDArgument : "value" "1"
-if(global.Dead == 1){	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "10"
+if(global.Dead >= 10){	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 79989A4C
 	/// @DnDParent : 35393465
